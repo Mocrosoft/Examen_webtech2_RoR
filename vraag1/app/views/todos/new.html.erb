@@ -1,0 +1,11 @@
+<h1> Welcome om te filteren  kan je bv dit doen : /todos/new/1 </h1>
+
+<h3><%= @message %></h3>
+
+<h3>Get ready for some json action!</h3>
+
+<% if @id_to_view != nil %>
+<h3>Je bent nu aan het filteren op priority : <%= @id_to_view %></h3>
+<% end %>
+
+<%= @todo_all %>

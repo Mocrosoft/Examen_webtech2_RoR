@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  beginDate: MyString
+  endDate: MyString
+  priority: 1
+  description: MyString
+  status: 1
+
+two:
+  beginDate: MyString
+  endDate: MyString
+  priority: 1
+  description: MyString
+  status: 1
